@@ -1,6 +1,6 @@
 # Trabajo Práctico Obligatorio
-*Profesor: Nicolás Alberto Monzón*.
+*Profesor: Nicolás Alberto Monzón*
 
-*Alumno: Valentina Chillemi*.
+*Alumno: Valentina Chillemi*
 
-*Turno: viernes noche*.
+*Turno: viernes noche*
