@@ -27,13 +27,13 @@ public interface QueueOfStacks {
 
     /**
      *
-     * @return el tamaño de la cola de pilas
+     * @return la variable count con un getter
      */
     int getSize();
 
     /**
      *
-     * @return el tamaño de cada pila
+     * @return la variable n con un getter. Es el tamaño de cada pila para asegurar nxn (matriz).
      */
     int getN();
 }

@@ -15,23 +15,23 @@ public class QueueOfStacksUtil {
         int j;
         for (i = 0; i <= n - 1; i++) {
             Stack stack = queue.getFirstSk();
-            if (i == 0) { // Para la primer pila de la cola
-                trace += stack.getTop();
-            }
-            if (i > 0 && i < n - 1) { // Para las pilas entre la primera y la última
-                int nRemover = (n - 1) - i;
-                for (j=0; j < nRemover; j++) {
-                    stack.remove();
-                }
-                trace += stack.getTop();
-            }
-            if (i == n - 1) { // Para la última pila
+            if (i == 0) {// Para la primer pila de la cola
                 for (j = 0; j < n - 1; j++) {
                     stack.remove();
                 }
                 trace += stack.getTop();
             }
             queue.removeStack();
+            if (i > 0 && i < n - 1) { // Para las pilas entre la primera y la última
+                int nRemover = (n - 1) - i;
+                for (j = 0; j < nRemover; j++) {
+                    stack.remove();
+                }
+                trace += stack.getTop();
+            }
+            if (i == n - 1) { // Para la última pila
+                trace += stack.getTop();
+            }
         }
         return trace;
     }
@@ -53,7 +53,6 @@ public class QueueOfStacksUtil {
 
         while (!queueOfSk.isEmpty()) {
             Stack stack = queueOfSk.getFirstSk();
-            StaticStack transposedStack = new StaticStack();
             if (stack.size() != n) {
                 throw new RuntimeException("Cada pila debe tener exactamente " + n + " elementos.");
             }

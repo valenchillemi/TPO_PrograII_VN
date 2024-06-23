@@ -5,23 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e82da219-c7da-4058-910e-b08c9ac0509a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/QueueOfQueueUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/definition/QueueOfQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/definition/QueueOfQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/definition/QueueOfStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/definition/QueueOfStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/implementation/normal/StaticQueueOfQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/implementation/normal/StaticQueueOfQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/QueueOfStacksUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/util/QueueOfStacksUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/definition/QueueOfQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/definition/QueueOfQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/definition/QueueOfStacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/definition/QueueOfStacks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/implementation/normal/StaticQueueOfStacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/implementation/normal/StaticQueueOfStacks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/util/QueueOfStacksUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/util/QueueOfStacksUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hzIzOufpw6yuBpJB4RIfV7deMr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,8 +43,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/valen/Downloads/TPO_PrograII_VN/TPO_PrograII_VN",
     "node.js.detected.package.eslint": "true",
@@ -57,11 +73,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718590740560</updated>
-      <workItem from="1718590741640" duration="1301000" />
+      <workItem from="1718590741640" duration="1953000" />
+      <workItem from="1718834500054" duration="2637000" />
+      <workItem from="1719152108963" duration="1260000" />
+      <workItem from="1719165354313" duration="6944000" />
+      <workItem from="1719179852616" duration="2982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((org.example.definition.Queue[])((StaticQueueOfQueue)queueOfQueue).queuesArray)[2]" custom="org.example.definition.Queue[],org.example.implementation.normal.StaticQueueOfQueue" />
+        <watch expression="((org.example.definition.Queue[])((StaticQueueOfQueue)queueOfQueue).queuesArray)[2]" custom="org.example.definition.Queue[],org.example.implementation.normal.StaticQueueOfQueue" />
+        <watch expression="queueOfQueue" />
+        <watch expression="((org.example.definition.Queue[])((StaticQueueOfQueue)qconcatenate).queuesArray)[5]" custom="org.example.definition.Queue[],org.example.implementation.normal.StaticQueueOfQueue" />
+        <watch expression="((StaticQueueOfQueue)qoq).queuesArray" custom="org.example.implementation.normal.StaticQueueOfQueue" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
